@@ -1,0 +1,19 @@
+{
+    "appId": "com.example.erp-system",
+    "icon": "./erp.png",
+    "productName": "ERP System",
+    "directories": {
+        "output": "releases"
+    },
+    "files": ["dist-electron","out", "package.json"],
+    "mac": {
+        "target": "dmg"
+    },
+    "win": {
+        "target": ["portable", "msi"]
+    },
+    "linux": {
+        "target": "AppImage",
+        "category": "Utility"
+    }
+}

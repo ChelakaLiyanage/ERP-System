@@ -2,9 +2,6 @@ import { app, BrowserWindow } from "electron";
 import path from "path";
 import { isDev, DEV_SERVER_URL } from "./util.js";
 
-type test = string;
-
-
 function createWindow() {
   const mainWindow = new BrowserWindow({
     width: 1200,
